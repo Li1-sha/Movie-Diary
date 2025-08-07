@@ -261,7 +261,7 @@ class LoginPage(tk.Tk):
             self.destroy()
             HomePage()
         else:
-            messagebox.showerror("Error", "Invalid username or password")
+            tkinter.messagebox.messagebox.showerror("Error", "Invalid username or password")
 
 
 # Show the login page
